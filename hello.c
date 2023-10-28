@@ -12,7 +12,7 @@ void drawMushroom() {
 }
 
 int main() {
- // 使用当前时间作为随机数生成器的种子
+ // 使用当前时间作为随机数生成器的种子hh
     srand(time(NULL));
 	printf("Hello world ,I am mushroom! This is a lusky number:%d\n", rand() % 10); //输出随机个位数
         drawMushroom();
